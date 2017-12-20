@@ -1,0 +1,4 @@
+/environment
+/kubeconfig
+/vendor/
+/gke-kubeconfig-builder

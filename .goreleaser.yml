@@ -1,0 +1,14 @@
+builds:
+  -
+    env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+    goarch:
+      - amd64
+archive:
+  format: binary
+release:
+  github:
+    owner: simonswine
+    name: gke-kubeconfig-builder
